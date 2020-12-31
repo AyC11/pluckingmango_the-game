@@ -15,7 +15,7 @@ boyImg=loadImage("images/boy.png");
 treeImg=loadImage("images/tree.png");
 }
 function setup() {
-	createCanvas(2000,700);
+	createCanvas(1000,700);
 	engine = Engine.create();
 	world = engine.world;
    boy=createSprite(250,1250,10,20);
